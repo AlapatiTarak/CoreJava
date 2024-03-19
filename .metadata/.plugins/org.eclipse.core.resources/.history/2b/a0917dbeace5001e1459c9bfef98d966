@@ -1,0 +1,18 @@
+package com.corejava.constructors;
+
+public class Constructor {
+ int a;
+	public static void main(String[] args) {
+		Constructor constructor = new Constructor(98);
+		System.out.println(constructor.a);
+	}
+	//test
+	Constructor(){
+	a=35;
+	}
+
+	Constructor(int a){
+		this.a=a;
+	}
+
+	}
